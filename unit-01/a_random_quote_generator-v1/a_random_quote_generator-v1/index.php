@@ -13,7 +13,7 @@
 <body>
   <div class="container">
     <div id="quote-box">
-     <?php printQuote() ?>
+     <?php echo printQuote(); ?>
     </div>
     <button id="loadQuote" onclick="window.location.reload(true)" >Show another quote</button>
   </div>
