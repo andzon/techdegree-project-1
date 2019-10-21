@@ -59,7 +59,7 @@ function printQuote() {
 $random_quote = getRandomQuote();
 $html_string = "";
 $html_string .=  "<p class='quote'>" . $random_quote['quote'] . "</p>";
-$html_string .=  "<p class='source'>" . $random_quote['source'] . ";
+$html_string .=  "<p class='source'>" . $random_quote['source'];
 if (isset($random_quote['citation'])) {
     $html_string .= "<span class='citation'>" . $random_quote['citation'] . "</span>";
 }
