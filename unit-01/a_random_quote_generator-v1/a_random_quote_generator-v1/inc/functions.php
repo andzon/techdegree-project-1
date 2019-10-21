@@ -4,7 +4,7 @@
 // Each inner array element should be an associative array
 
 $quotes[] = [
-        'quote' => 'Appear weak when you are strong, and strong when you are weak.'',
+        'quote' => 'Appear weak when you are strong, and strong when you are weak.',
         'source' => 'Sun Tzu',
         'citation' => 'everydaypower.com',
         'year' => '2019'
@@ -12,7 +12,7 @@ $quotes[] = [
 ];
 
 $quotes[] = [
-        'quote' => 'Life is 10% what happens to us and 90% how we react to it.'',
+        'quote' => 'Life is 10% what happens to us and 90% how we react to it.',
         'source' => 'Dennis P. Kimbro',
         'citation' => 'keepinspiring.me',
         'year' => '2019'
@@ -36,7 +36,7 @@ $quotes[] = [
 ];
 
 $quotes[] = [
-        'quote' => 'We shall see but a little way if we require to understand what we see.'',
+        'quote' => 'We shall see but a little way if we require to understand what we see.',
         'source' => 'Henry David Thoreau',
         'citation' => 'wiseoldsayings.com',
         'year' =>  "2019"
