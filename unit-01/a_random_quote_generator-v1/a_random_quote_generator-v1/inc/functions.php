@@ -93,6 +93,6 @@ function GenerateRandomColor() {
 
 function PrintRandomColor() {
   $random_colour = GenerateRandomColor();
-  return $random_colour;
+  echo $random_colour;
 }
  ?>
