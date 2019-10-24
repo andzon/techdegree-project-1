@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
-<body backgroundcolor="<?php PrintRandomColor() ?>">
+<body backgroundcolor="<?php echo PrintRandomColor(); ?>">
   <div class="container">
     <div id="quote-box">
      <?php echo printQuote(); ?>

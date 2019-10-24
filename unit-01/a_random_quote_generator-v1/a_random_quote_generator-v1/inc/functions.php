@@ -9,7 +9,6 @@ $quotes[] = [
         'citation' => 'The Art of War',
         'year' => '2005',
         'tags' => 'Life'
-
 ];
 
 $quotes[] = [
@@ -18,14 +17,14 @@ $quotes[] = [
         'citation' => 'The Grace Awakening',
         'year' => '2006',
         'tags' => 'Attitude'
-
 ];
 
 $quotes[] = [
         'quote' => 'Every saint has a past, and every sinner has a future',
-        'source' => 'scar Wilde',
+        'source' => 'Scar Wilde',
         'citation' => 'wisdomquotes.com',
-        'year' => '2019'
+        'year' => '2019',
+        'tags' => 'Attitude'
 
 ];
 
@@ -33,7 +32,8 @@ $quotes[] = [
         'quote' => 'The more I read, the more I acquire, the more certain I am that I know nothing.',
         'source' => 'Voltaire',
         'citation' => 'keepinspiring.me',
-        'year' => '2019'
+        'year' => '2019',
+        'tags' => 'Attitude'
 
 ];
 
@@ -41,7 +41,8 @@ $quotes[] = [
         'quote' => 'We shall see but a little way if we require to understand what we see.',
         'source' => 'Henry David Thoreau',
         'citation' => 'wiseoldsayings.com',
-        'year' =>  "2019"
+        'year' =>  '2019',
+        'tags' => 'Attitude'
 
 ];
 
@@ -49,7 +50,8 @@ $quotes[] = [
         'quote' => 'Most of the important things in the world have been accomplished by people who have kept on trying when there seemed to be no hope at all.',
         'source' => 'Dale Carnegie',
         'citation' => ' Permission to Play',
-        'year' =>  "2003"
+        'year' =>  '2003',
+        'tags' => 'Attitude'
 
 ];
 
