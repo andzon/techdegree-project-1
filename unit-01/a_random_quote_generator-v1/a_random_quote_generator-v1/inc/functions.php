@@ -87,6 +87,7 @@ function printQuote() {
 }
 
 //This function is to generate random colours and to change colours randomly everytime the background refresh
+// Going for " Exceeds Expectations"
 
 function GenerateRandomColor() {
   $background_colors = array('#34495e', '#d35400', '#16a085', '#f39c12', '#7f8c8d', '#2980b9');
@@ -95,6 +96,8 @@ function GenerateRandomColor() {
 }
 
 //This function is to call the GeenrateRandomColor function and appending it in the index.php file
+// Going for " Exceeds Expectations"
+
 
 function PrintRandomColor() {
   $random_colour = GenerateRandomColor();
