@@ -63,7 +63,7 @@ function getRandomQuote() {
 }
 
 
-// This function is to print the quotes to the front
+// This function is to print the quotes to the front and calls the getRandomQuote function
 // html_string to put them in a proper structure to display properly to the front
 // If statement for any quotes that have "year", "citation" and "tags" in the quotes
 
@@ -86,7 +86,7 @@ function printQuote() {
   return $html_string;
 }
 
-//This function is to generate random colours
+//This function is to generate random colours and to change colours randomly everytime the background refresh
 
 function GenerateRandomColor() {
   $background_colors = array('#34495e', '#d35400', '#16a085', '#f39c12', '#7f8c8d', '#2980b9');
@@ -94,7 +94,7 @@ function GenerateRandomColor() {
   return $background_colors[$random_n];
 }
 
-//This function is to change colours randomly everytime the background refresh by appending it in the index.php file
+//This function is to call the GeenrateRandomColor function and appending it in the index.php file
 
 function PrintRandomColor() {
   $random_colour = GenerateRandomColor();
