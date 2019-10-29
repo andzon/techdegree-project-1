@@ -20,29 +20,26 @@ $quotes[] = [
 ];
 
 $quotes[] = [
-        'quote' => 'Every saint has a past, and every sinner has a future',
-        'source' => 'Scar Wilde',
-        'citation' => 'wisdomquotes.com',
-        'year' => '2019',
-        'tags' => 'Attitude'
+        'quote' => 'If you tell the truth, you don\'t have to remember anything.',
+        'source' => 'Mark Twain',
+        'citation' => 'goodreads.com',
+        'tags' => 'Truth'
 
 ];
 
 $quotes[] = [
         'quote' => 'The more I read, the more I acquire, the more certain I am that I know nothing.',
         'source' => 'Voltaire',
-        'citation' => 'keepinspiring.me',
-        'year' => '2019',
-        'tags' => 'Attitude'
+        'citation' => 'goodreads.com',
+        'tags' => 'Wisdom'
 
 ];
 
 $quotes[] = [
-        'quote' => 'We shall see but a little way if we require to understand what we see.',
-        'source' => 'Henry David Thoreau',
-        'citation' => 'wiseoldsayings.com',
-        'year' =>  '2019',
-        'tags' => 'Attitude'
+        'quote' => 'Be yourself; everyone else is already taken',
+        'source' => 'Oscar Wilde',
+        'citation' => 'goodreads.com',
+        'tags' => 'Inspirational'
 
 ];
 
@@ -51,11 +48,13 @@ $quotes[] = [
         'source' => 'Dale Carnegie',
         'citation' => ' Permission to Play',
         'year' =>  '2003',
-        'tags' => 'Attitude'
+        'tags' => 'Perseverance'
 
 ];
 
-// Create the getRandomQuuote function and name it getRandomQuote
+// This functions generate random number between 0 to 5 and then it will assign to $random_number
+// It also make $quotes global so it will apply outside this function
+// End it with a return to return the $quotes based on $random_number
 
 function getRandomQuote() {
   global $quotes;
@@ -64,7 +63,9 @@ function getRandomQuote() {
 }
 
 
-// Create the printQuote funtion and name it printQuote
+// This function is to print the quotes to the front
+// html_string to put them in a proper structure to display properly to the front
+// If statement for any quotes that have "year", "citation" and "tags" in the quotes
 
 function printQuote() {
   $random_quote = getRandomQuote();
@@ -85,11 +86,15 @@ function printQuote() {
   return $html_string;
 }
 
+//This function is to generate random colours
+
 function GenerateRandomColor() {
-  $background_colors = array('#282E33', '#25373A', '#164852', '#495E67', '#FF3838');
-  $random_n = rand(0,4);
+  $background_colors = array('#34495e', '#d35400', '#16a085', '#f39c12', '#7f8c8d', '#2980b9');
+  $random_n = rand(0,5);
   return $background_colors[$random_n];
 }
+
+//This function is to change colours randomly everytime the background refresh by appending it in the index.php file
 
 function PrintRandomColor() {
   $random_colour = GenerateRandomColor();
